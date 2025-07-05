@@ -1,0 +1,5 @@
+Total images saved: 1473
+Total txt files saved: 1473
+Total multiple polyp images: 123
+Total polyp images found: 1347
+Total no polyp images: 126

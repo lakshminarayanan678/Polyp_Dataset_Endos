@@ -1,0 +1,5 @@
+🖼️ Total images: 40186
+✅ Polyp images: 33875
+✅ Multiple polyp images: 2360
+✅ Non-polyp images: 6311
+📄 CSV saved to: /home/endodl/PHASE-1/LDPolypVideo/bef_annot_data/ldpolyp_annotations_bbox_rows.csv

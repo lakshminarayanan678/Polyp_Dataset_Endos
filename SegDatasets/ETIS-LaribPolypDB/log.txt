@@ -1,0 +1,13 @@
+Dataset: ETIS-LaribPolypDB
+🖼️ Total images: 196
+✅ Polyp images: 196
+✅ Multiple polyp images: 6
+✅ Non-polyp images: 0
+📄 CSV saved to: /home/endodl/PHASE-1/ETIS-LaribPolypDB/normalized.csv
+📌 Masks with multiple polyps:
+ - ETIS-LaribPolypDB_43.png
+ - ETIS-LaribPolypDB_44.png
+ - ETIS-LaribPolypDB_45.png
+ - ETIS-LaribPolypDB_46.png
+ - ETIS-LaribPolypDB_47.png
+ - ETIS-LaribPolypDB_48.png

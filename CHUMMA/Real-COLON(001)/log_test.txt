@@ -1,0 +1,5 @@
+🖼️ Total images: 7644
+✅ Polyp images: 7269
+✅ Multiple polyp images: 0
+✅ Non-polyp images: 375
+📌 Files with multiple polyps:

@@ -1,0 +1,7 @@
+Dataset: CVC-ColonDB
+🖼️ Total images: 380
+✅ Polyp images: 380
+✅ Multiple polyp images: 0
+✅ Non-polyp images: 0
+📄 CSV saved to: /home/endodl/PHASE-1/SegDatasets/CVC-ColonDB/normalized.csv
+📌 Masks with multiple polyps:

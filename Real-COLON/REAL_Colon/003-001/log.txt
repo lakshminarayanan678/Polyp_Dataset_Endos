@@ -1,0 +1,12 @@
+==== CONVERSION SUMMARY ====
+Total XML files processed         : 51719
+Images with at least 1 polyp     : 8640
+Images with no polyp             : 43079
+Images with multiple polyps      : 3
+
+✅ No unexpected class names found.
+
+🖼️ Images with multiple polyps:
+ - 003-001_32716.jpg
+ - 003-001_31274.jpg
+ - 003-001_31251.jpg

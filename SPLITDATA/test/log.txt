@@ -1,0 +1,289 @@
+===== DATASET COMPOSITION =====
+📁 realcolon images in test: 9355
+📁 ldpolyp images in test: 4087
+📁 kumc images in test: 3654
+📁 polypgen images in test: 143
+📁 Kvasir-SEG images in test: 107
+
+===== DATASET INTEGRITY & POLYP STATS =====
+🖼️ Total image files                : 17346
+📝 Total label files                : 17346
+✅ Image-label matches              : 17346
+❌ Missing labels                   : 0
+
+===== POLYP STATISTICS =====
+✅ Images with ≥1 polyp             : 8663
+❌ Images with 0 polyps             : 8683
+📦 Images with multiple polyps      : 252
+
+--- Polyp Count Distribution ---
+Images with 2 polyps         : 154
+Images with 3 polyps         : 53
+Images with 4 polyps         : 35
+Images with 5 polyps         : 9
+Images with 6 polyps         : 1
+
+--- Files per Polyp Count ---
+>> 2 polyps:
+ - ldpolyp_138_0177.jpg
+ - ldpolyp_135_0002.jpg
+ - ldpolyp_36_0105.jpg
+ - ldpolyp_138_0190.jpg
+ - ldpolyp_138_0081.jpg
+ - Kvasir-SEG_cju6z9a9kwsl007552s49rx6i.jpg
+ - ldpolyp_152_0076.jpg
+ - ldpolyp_135_0318.jpg
+ - ldpolyp_70_0101.jpg
+ - ldpolyp_152_0222.jpg
+ - ldpolyp_76_0061.jpg
+ - ldpolyp_152_0088.jpg
+ - ldpolyp_62_0128.jpg
+ - ldpolyp_70_0109.jpg
+ - ldpolyp_66_0129.jpg
+ - ldpolyp_76_0153.jpg
+ - ldpolyp_142_0016.jpg
+ - ldpolyp_135_0008.jpg
+ - ldpolyp_66_0157.jpg
+ - ldpolyp_76_0067.jpg
+ - ldpolyp_152_0132.jpg
+ - Kvasir-SEG_cju2hfqnmhisa0993gpleeldd.jpg
+ - ldpolyp_76_0114.jpg
+ - ldpolyp_152_0074.jpg
+ - ldpolyp_73_0090.jpg
+ - ldpolyp_152_0127.jpg
+ - ldpolyp_138_0171.jpg
+ - ldpolyp_152_0108.jpg
+ - ldpolyp_70_0116.jpg
+ - ldpolyp_71_0178.jpg
+ - ldpolyp_76_0136.jpg
+ - ldpolyp_137_0173.jpg
+ - polypgen_C2_00233.jpg
+ - ldpolyp_142_0038.jpg
+ - ldpolyp_71_0028.jpg
+ - ldpolyp_76_0186.jpg
+ - ldpolyp_152_0223.jpg
+ - ldpolyp_76_0146.jpg
+ - ldpolyp_124_0145.jpg
+ - ldpolyp_73_0063.jpg
+ - Kvasir-SEG_cju3x4blzieu30850x10uuvbm.jpg
+ - ldpolyp_142_0059.jpg
+ - ldpolyp_66_0151.jpg
+ - polypgen_C5_00150.jpg
+ - ldpolyp_70_0114.jpg
+ - ldpolyp_124_0157.jpg
+ - ldpolyp_62_0309.jpg
+ - polypgen_C4_00036.jpg
+ - ldpolyp_152_0143.jpg
+ - ldpolyp_135_0069.jpg
+ - ldpolyp_152_0240.jpg
+ - ldpolyp_76_0176.jpg
+ - ldpolyp_138_0103.jpg
+ - ldpolyp_70_0058.jpg
+ - ldpolyp_71_0155.jpg
+ - ldpolyp_142_0014.jpg
+ - ldpolyp_138_0125.jpg
+ - ldpolyp_73_0234.jpg
+ - ldpolyp_36_0060.jpg
+ - ldpolyp_76_0066.jpg
+ - ldpolyp_71_0157.jpg
+ - ldpolyp_66_0142.jpg
+ - ldpolyp_66_0103.jpg
+ - ldpolyp_76_0113.jpg
+ - ldpolyp_138_0057.jpg
+ - ldpolyp_152_0209.jpg
+ - ldpolyp_138_0121.jpg
+ - ldpolyp_152_0041.jpg
+ - ldpolyp_76_0075.jpg
+ - ldpolyp_76_0195.jpg
+ - ldpolyp_124_0159.jpg
+ - ldpolyp_70_0023.jpg
+ - ldpolyp_76_0169.jpg
+ - ldpolyp_71_0138.jpg
+ - ldpolyp_71_0103.jpg
+ - ldpolyp_152_0106.jpg
+ - ldpolyp_72_0059.jpg
+ - ldpolyp_76_0196.jpg
+ - ldpolyp_76_0057.jpg
+ - ldpolyp_152_0045.jpg
+ - ldpolyp_70_0110.jpg
+ - ldpolyp_71_0001.jpg
+ - ldpolyp_135_0066.jpg
+ - ldpolyp_135_0282.jpg
+ - ldpolyp_152_0158.jpg
+ - ldpolyp_70_0041.jpg
+ - ldpolyp_66_0141.jpg
+ - ldpolyp_138_0047.jpg
+ - ldpolyp_72_0185.jpg
+ - ldpolyp_135_0004.jpg
+ - ldpolyp_152_0114.jpg
+ - ldpolyp_66_0124.jpg
+ - ldpolyp_73_0240.jpg
+ - ldpolyp_70_0049.jpg
+ - ldpolyp_70_0123.jpg
+ - ldpolyp_36_0152.jpg
+ - ldpolyp_138_0116.jpg
+ - ldpolyp_73_0246.jpg
+ - ldpolyp_152_0213.jpg
+ - ldpolyp_70_0038.jpg
+ - ldpolyp_66_0147.jpg
+ - ldpolyp_135_0293.jpg
+ - ldpolyp_72_0162.jpg
+ - ldpolyp_36_0071.jpg
+ - ldpolyp_73_0076.jpg
+ - ldpolyp_73_0104.jpg
+ - ldpolyp_72_0055.jpg
+ - ldpolyp_36_0151.jpg
+ - ldpolyp_152_0199.jpg
+ - ldpolyp_66_0133.jpg
+ - ldpolyp_66_0101.jpg
+ - ldpolyp_135_0275.jpg
+ - ldpolyp_73_0096.jpg
+ - ldpolyp_73_0207.jpg
+ - ldpolyp_73_0124.jpg
+ - ldpolyp_66_0138.jpg
+ - ldpolyp_1_0007.jpg
+ - ldpolyp_76_0103.jpg
+ - ldpolyp_76_0143.jpg
+ - ldpolyp_135_0302.jpg
+ - ldpolyp_73_0127.jpg
+ - ldpolyp_76_0171.jpg
+ - ldpolyp_142_0050.jpg
+ - ldpolyp_138_0109.jpg
+ - ldpolyp_70_0119.jpg
+ - ldpolyp_142_0064.jpg
+ - ldpolyp_76_0163.jpg
+ - ldpolyp_142_0027.jpg
+ - ldpolyp_76_0050.jpg
+ - ldpolyp_138_0049.jpg
+ - ldpolyp_124_0146.jpg
+ - ldpolyp_66_0144.jpg
+ - ldpolyp_138_0075.jpg
+ - polypgen_C6_00035.jpg
+ - ldpolyp_70_0062.jpg
+ - polypgen_C5_00189.jpg
+ - Kvasir-SEG_cju6v3bb2v7xo085090blubyw.jpg
+ - ldpolyp_66_0046.jpg
+ - ldpolyp_70_0106.jpg
+ - ldpolyp_66_0172.jpg
+ - ldpolyp_152_0117.jpg
+ - ldpolyp_66_0041.jpg
+ - ldpolyp_70_0084.jpg
+ - ldpolyp_142_0092.jpg
+ - ldpolyp_152_0064.jpg
+ - ldpolyp_76_0151.jpg
+ - ldpolyp_76_0173.jpg
+ - ldpolyp_71_0025.jpg
+ - ldpolyp_76_0043.jpg
+ - ldpolyp_72_0172.jpg
+ - ldpolyp_73_0192.jpg
+ - ldpolyp_66_0134.jpg
+ - ldpolyp_71_0040.jpg
+ - ldpolyp_152_0050.jpg
+
+>> 3 polyps:
+ - ldpolyp_142_0122.jpg
+ - ldpolyp_72_0049.jpg
+ - ldpolyp_74_0030.jpg
+ - ldpolyp_135_0339.jpg
+ - ldpolyp_135_0382.jpg
+ - ldpolyp_134_0110.jpg
+ - ldpolyp_73_0153.jpg
+ - ldpolyp_74_0042.jpg
+ - ldpolyp_73_0135.jpg
+ - ldpolyp_135_0116.jpg
+ - ldpolyp_74_0043.jpg
+ - ldpolyp_135_0485.jpg
+ - ldpolyp_74_0044.jpg
+ - ldpolyp_135_0356.jpg
+ - ldpolyp_73_0184.jpg
+ - ldpolyp_72_0030.jpg
+ - ldpolyp_135_0437.jpg
+ - ldpolyp_135_0341.jpg
+ - ldpolyp_73_0190.jpg
+ - ldpolyp_73_0178.jpg
+ - ldpolyp_74_0032.jpg
+ - ldpolyp_135_0128.jpg
+ - ldpolyp_135_0426.jpg
+ - ldpolyp_73_0140.jpg
+ - ldpolyp_135_0425.jpg
+ - ldpolyp_73_0161.jpg
+ - ldpolyp_135_0434.jpg
+ - ldpolyp_73_0151.jpg
+ - ldpolyp_134_0135.jpg
+ - ldpolyp_135_0499.jpg
+ - ldpolyp_73_0181.jpg
+ - ldpolyp_74_0021.jpg
+ - ldpolyp_135_0422.jpg
+ - ldpolyp_135_0029.jpg
+ - ldpolyp_135_0388.jpg
+ - ldpolyp_141_0065.jpg
+ - ldpolyp_73_0160.jpg
+ - ldpolyp_135_0259.jpg
+ - ldpolyp_135_0395.jpg
+ - ldpolyp_73_0141.jpg
+ - ldpolyp_141_0044.jpg
+ - ldpolyp_72_0061.jpg
+ - ldpolyp_135_0404.jpg
+ - ldpolyp_72_0036.jpg
+ - ldpolyp_135_0058.jpg
+ - ldpolyp_135_0383.jpg
+ - ldpolyp_134_0129.jpg
+ - ldpolyp_72_0041.jpg
+ - ldpolyp_142_0119.jpg
+ - ldpolyp_73_0048.jpg
+ - ldpolyp_74_0031.jpg
+ - ldpolyp_135_0490.jpg
+ - ldpolyp_134_0136.jpg
+
+>> 4 polyps:
+ - ldpolyp_73_0022.jpg
+ - ldpolyp_134_0206.jpg
+ - ldpolyp_135_0190.jpg
+ - ldpolyp_142_0147.jpg
+ - ldpolyp_134_0115.jpg
+ - ldpolyp_74_0050.jpg
+ - ldpolyp_134_0186.jpg
+ - ldpolyp_135_0180.jpg
+ - ldpolyp_142_0175.jpg
+ - ldpolyp_134_0151.jpg
+ - ldpolyp_135_0162.jpg
+ - ldpolyp_142_0134.jpg
+ - ldpolyp_74_0052.jpg
+ - ldpolyp_134_0114.jpg
+ - ldpolyp_135_0146.jpg
+ - ldpolyp_142_0170.jpg
+ - ldpolyp_134_0165.jpg
+ - ldpolyp_134_0083.jpg
+ - ldpolyp_142_0180.jpg
+ - ldpolyp_134_0077.jpg
+ - ldpolyp_142_0176.jpg
+ - ldpolyp_135_0155.jpg
+ - ldpolyp_135_0192.jpg
+ - ldpolyp_74_0107.jpg
+ - ldpolyp_142_0182.jpg
+ - ldpolyp_135_0165.jpg
+ - ldpolyp_134_0196.jpg
+ - ldpolyp_142_0145.jpg
+ - ldpolyp_134_0111.jpg
+ - ldpolyp_135_0158.jpg
+ - ldpolyp_74_0054.jpg
+ - ldpolyp_142_0117.jpg
+ - ldpolyp_142_0135.jpg
+ - ldpolyp_135_0176.jpg
+ - ldpolyp_134_0086.jpg
+
+>> 5 polyps:
+ - ldpolyp_135_0217.jpg
+ - ldpolyp_135_0222.jpg
+ - ldpolyp_135_0199.jpg
+ - ldpolyp_135_0237.jpg
+ - ldpolyp_135_0040.jpg
+ - ldpolyp_135_0218.jpg
+ - ldpolyp_135_0226.jpg
+ - ldpolyp_135_0220.jpg
+ - ldpolyp_73_0018.jpg
+
+>> 6 polyps:
+ - polypgen_C3_00388.jpg
+
+

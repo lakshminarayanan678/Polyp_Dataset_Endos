@@ -1,0 +1,58 @@
+# Ignore all images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+*.xml
+
+
+
+# Ignore videos and raw data
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.zip
+*.tar
+*.gz
+
+# Ignore large data folders (optional)
+images/
+labels/
+001-003_annotations
+annotations/
+datasets/
+data/
+annotations_yolo/
+002-001_frames/
+002-001_annotations/
+003-001_frames/
+003-001_annotations/
+004-008_frames/
+004-008_annotations/
+
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+.env
+.venv
+*.env
+*.DS_Store
+
+# VSCode or editor-specific
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+*.out
+
+# Ignore model checkpoints
+*.pth
+*.pt
+*.h5
+*.ckpt

@@ -1,0 +1,37 @@
+Dataset: CVC-ClinicDB
+🖼️ Total images: 612
+✅ Polyp images: 612
+✅ Multiple polyp images: 30
+✅ Non-polyp images: 0
+📄 CSV saved to: /home/endodl/PHASE-1/SegDatasets/CVC-ClinicDB/normalized.csv
+📌 Masks with multiple polyps:
+ - CVC-ClinicDB_547.png
+ - CVC-ClinicDB_548.png
+ - CVC-ClinicDB_549.png
+ - CVC-ClinicDB_550.png
+ - CVC-ClinicDB_551.png
+ - CVC-ClinicDB_552.png
+ - CVC-ClinicDB_553.png
+ - CVC-ClinicDB_554.png
+ - CVC-ClinicDB_555.png
+ - CVC-ClinicDB_556.png
+ - CVC-ClinicDB_557.png
+ - CVC-ClinicDB_558.png
+ - CVC-ClinicDB_560.png
+ - CVC-ClinicDB_561.png
+ - CVC-ClinicDB_562.png
+ - CVC-ClinicDB_565.png
+ - CVC-ClinicDB_566.png
+ - CVC-ClinicDB_567.png
+ - CVC-ClinicDB_568.png
+ - CVC-ClinicDB_569.png
+ - CVC-ClinicDB_570.png
+ - CVC-ClinicDB_571.png
+ - CVC-ClinicDB_70.png
+ - CVC-ClinicDB_71.png
+ - CVC-ClinicDB_72.png
+ - CVC-ClinicDB_73.png
+ - CVC-ClinicDB_74.png
+ - CVC-ClinicDB_75.png
+ - CVC-ClinicDB_76.png
+ - CVC-ClinicDB_77.png

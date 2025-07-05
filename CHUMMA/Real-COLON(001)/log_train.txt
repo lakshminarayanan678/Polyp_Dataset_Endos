@@ -1,0 +1,6 @@
+🖼️ Total images: 30255
+✅ Polyp images: 28727
+✅ Multiple polyp images: 1
+✅ Non-polyp images: 1528
+📌 Files with multiple polyps:
+ - tests6(169).txt

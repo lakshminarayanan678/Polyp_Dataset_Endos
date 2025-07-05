@@ -1,0 +1,55 @@
+Dataset: Kvasir-SEG
+🖼️ Total images: 1000
+✅ Polyp images: 1000
+✅ Multiple polyp images: 48
+✅ Non-polyp images: 0
+📄 CSV saved to: /home/endodl/PHASE-1/SegDatasets/Kvasir-SEG/normalized.csv
+📌 Masks with multiple polyps:
+ - Kvasir-SEG_cju0roawvklrq0799vmjorwfv.jpg
+ - Kvasir-SEG_cju0sr5ghl0nd08789uzf1raf.jpg
+ - Kvasir-SEG_cju183od81ff608017ekzif89.jpg
+ - Kvasir-SEG_cju1cu1u2474n0878tt7v4tdr.jpg
+ - Kvasir-SEG_cju2hfqnmhisa0993gpleeldd.jpg
+ - Kvasir-SEG_cju2hjrqcvi2j0801bx1i6gxg.jpg
+ - Kvasir-SEG_cju2ma647l0nj0993ot4deq2q.jpg
+ - Kvasir-SEG_cju2nqapmzvk20801f9us40dx.jpg
+ - Kvasir-SEG_cju2rnkt22xep0801as160g9t.jpg
+ - Kvasir-SEG_cju2rz4k434s70855wwx3ddtx.jpg
+ - Kvasir-SEG_cju2ueb6j5ado0878vf5md13o.jpg
+ - Kvasir-SEG_cju2y5zas8m7f0801d34g5owq.jpg
+ - Kvasir-SEG_cju2zdhsczmn50988z64qwg2q.jpg
+ - Kvasir-SEG_cju2zjcvj9qma0801dk71hhi0.jpg
+ - Kvasir-SEG_cju2zo0fwzv580988qlijd2xa.jpg
+ - Kvasir-SEG_cju30ajhw09sx0988qyahx9s8.jpg
+ - Kvasir-SEG_cju31t8xd17bk0835rnb893jk.jpg
+ - Kvasir-SEG_cju32a52lb9rc0799xi40qs00.jpg
+ - Kvasir-SEG_cju32gzs6xo8x0993r8tedbpb.jpg
+ - Kvasir-SEG_cju33belnbyhm0878yxl42233.jpg
+ - Kvasir-SEG_cju34xspwzenf0993cyzajv9n.jpg
+ - Kvasir-SEG_cju35k2fr3vc50988c85qkrwg.jpg
+ - Kvasir-SEG_cju3uhb79gcgr0871orbrbi3x.jpg
+ - Kvasir-SEG_cju3v56bwgy8v0871w14pz8fx.jpg
+ - Kvasir-SEG_cju3x4blzieu30850x10uuvbm.jpg
+ - Kvasir-SEG_cju3ya7goj6at0818v2l5ay7f.jpg
+ - Kvasir-SEG_cju3ykamdj9u208503pygyuc8.jpg
+ - Kvasir-SEG_cju40m0rjkpw80871z6n6yg1u.jpg
+ - Kvasir-SEG_cju414lf2l1lt0801rl3hjllj.jpg
+ - Kvasir-SEG_cju430pm2lz0y0755jkhcc3d1.jpg
+ - Kvasir-SEG_cju43c92lm5cj0755lorsorfg.jpg
+ - Kvasir-SEG_cju45rj7ln8980850a7821fov.jpg
+ - Kvasir-SEG_cju5cjh3xattc0817j2vbulzi.jpg
+ - Kvasir-SEG_cju5hyi9yegob0755ho3do8en.jpg
+ - Kvasir-SEG_cju5yeqiwmkgl0801fzv2douc.jpg
+ - Kvasir-SEG_cju6v1m1xv07w09870ah3njy1.jpg
+ - Kvasir-SEG_cju6v3bb2v7xo085090blubyw.jpg
+ - Kvasir-SEG_cju6vucxvvlda0755j7msqnya.jpg
+ - Kvasir-SEG_cju6z9a9kwsl007552s49rx6i.jpg
+ - Kvasir-SEG_cju7dmlgf2ebw0871ieqas5fh.jpg
+ - Kvasir-SEG_cju7eea9b2m0z0801ynqv1fqu.jpg
+ - Kvasir-SEG_cju7et17a2vjk0755e743npl1.jpg
+ - Kvasir-SEG_cju7fen322ou10817ziqkob4k.jpg
+ - Kvasir-SEG_cju87kbcen2av0987usezo8kn.jpg
+ - Kvasir-SEG_cju884985nlmx0817vzpax3y4.jpg
+ - Kvasir-SEG_cju88q6h6obpd0871ckmiabbo.jpg
+ - Kvasir-SEG_ck2bxknhjvs1x0794iogrq49k.jpg
+ - Kvasir-SEG_ck2bxskgxxzfv08386xkqtqdy.jpg

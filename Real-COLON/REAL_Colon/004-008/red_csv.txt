@@ -1,0 +1,5 @@
+🔢 Total rows in input CSV      : 22742
+✅ Polyp rows kept              : 1422
+✅ Non-polyp rows originally    : 21320
+✅ Non-polyp rows kept (50%)    : 10660
+🟢 Total rows in filtered output: 12082
