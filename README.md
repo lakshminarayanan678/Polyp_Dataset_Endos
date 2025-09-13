@@ -80,3 +80,16 @@ Some datasets, particularly **Real-COLON**, originally contained significantly m
 - This adjustment ensures a more balanced ratio between polyp and non-polyp images for training.  
 
 ---
+
+## 📸 Sample Images from Each Dataset  
+
+| Dataset       | Samples |
+|---------------|---------|
+| **Kvasir-SEG** | <img src="images/kvasir1.jpg" width="200"/> <img src="images/kvasir2.jpg" width="200"/> |
+| **CVC-Clinic** | <img src="images/cvc_clinic1.jpg" width="200"/> <img src="images/cvc_clinic2.jpg" width="200"/> |
+| **CVC-Colon**  | <img src="images/cvc_colon1.jpg" width="200"/> <img src="images/cvc_colon2.jpg" width="200"/> |
+| **ETIS-Larib** | <img src="images/etis1.jpg" width="200"/> <img src="images/etis2.jpg" width="200"/> |
+| **PolypGen**   | <img src="images/polypgen1.jpg" width="200"/> <img src="images/polypgen2.jpg" width="200"/> |
+| **LD-PolypVideo** | <img src="images/ld1.jpg" width="200"/> <img src="images/ld2.jpg" width="200"/> |
+| **KUMC (PolypSet)** | <img src="images/kumc1.jpg" width="200"/> <img src="images/kumc2.jpg" width="200"/> |
+| **Real-COLON** | <img src="images/realcolon1.jpg" width="200"/> <img src="images/realcolon2.jpg" width="200"/> |
