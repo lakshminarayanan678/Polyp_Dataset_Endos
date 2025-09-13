@@ -92,4 +92,3 @@ Some datasets, particularly **Real-COLON**, originally contained significantly m
 | **PolypGen**   | <img src="images/polypgen1.jpg" width="200"/> <img src="images/polypgen2.jpg" width="200"/> |
 | **LD-PolypVideo** | <img src="images/ld1.jpg" width="200"/> <img src="images/ld2.jpg" width="200"/> |
 | **KUMC (PolypSet)** | <img src="images/kumc1.jpg" width="200"/> <img src="images/kumc2.jpg" width="200"/> |
-| **Real-COLON** | <img src="images/realcolon1.jpg" width="200"/> <img src="images/realcolon2.jpg" width="200"/> |
