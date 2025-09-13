@@ -5,20 +5,15 @@ This work aggregates publicly available colonoscopy datasets for polyp detection
 ### ✅ Benchmark Datasets
 
 The following datasets were used as benchmarks for evaluation, as they are widely adopted in prior research:
-
-CVC-ClinicDB
-
-CVC-ColonDB
-
-ETIS-LaribDB
+- CVC-ClinicDB
+- CVC-ColonDB 
+- ETIS-LaribDB
 
 ### 📦 Training Datasets
 
 The remaining datasets were used to build a composite training set and for pretraining models, enabling both:
-
-Intra-dataset testing – training and evaluating on splits of the same dataset.
-
-Inter-dataset testing – training on one dataset and evaluating on unseen datasets to assess generalization.
+- Intra-dataset testing – training and evaluating on splits of the same dataset.
+- Inter-dataset testing – training on one dataset and evaluating on unseen datasets to assess generalization.
 
 ## 📦 Dataset Summary  
 
