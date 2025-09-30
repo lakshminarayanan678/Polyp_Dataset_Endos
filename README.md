@@ -102,14 +102,15 @@ These ensure **reproducibility** by documenting:
 Some datasets, particularly **Real-COLON**, contained a large imbalance of **non-polyp vs. polyp images**.  
 - To address this, **non-polyp samples were reduced by half** in each subset.  
 - This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
-|--------------------------|--------------|--------------|------------------|
+
 | Dataset                  | Total Images | Polyp Images | Non-Polyp Images |
 |--------------------------|-------------:|-------------:|-----------------:|
 | **Real-COLON (001-003)** | 39262        | 35996        | 3266             |
 | **Real-COLON (002-001)** | 25998        | 0            | 25998            |
 | **Real-COLON (003-001)** | 51722        | 8643         | 43079            |
 | **Real-COLON (004-008)** | 22742        | 1422         | 21320            |
-|--------------------------|------------- |--------------|------------------|
+
+
 | Dataset                  | Updated Total Images | Polyp Images | Filtered Non-Polyp Images |
 |--------------------------|---------------------:|-------------:|--------------------------:|
 | **Real-COLON (001-003)** | 37629                | 35996        | 1633                      |
@@ -118,7 +119,8 @@ Some datasets, particularly **Real-COLON**, contained a large imbalance of **non
 | **Real-COLON (004-008)** | 12082                | 1422         | 10660                     |
 | **TOTAL**                | 92892                | 46061        | 46831                     |
 
-------
+
+---
 
 ##  Disclaimer  
 This work was done solely for **documentation of personal research** and for **keeping track of dataset preparation steps**.  
