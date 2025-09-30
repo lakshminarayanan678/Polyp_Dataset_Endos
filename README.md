@@ -40,19 +40,17 @@ This setup enables two modes of evaluation:
 
 ## 📊 Dataset Summary  
 
-| Dataset              | Total Images | Polyp Images | Multiple Polyp Images | Non-Polyp Images |
-|----------------------|-------------:|-------------:|----------------------:|-----------------:|
-| **CVC-ClinicDB**     | 612          | 612          | 30                    | 0                |
-| **CVC-ColonDB**      | 380          | 380          | –                     | 0                |
-| **Kvasir-SEG**       | 1,000        | 1,000        | 48                    | 0                |
-| **PolypGen**         | 1,473        | 1,347        | 123                   | 126              |
-| **ETIS-LaribDB**     | 196          | 196          | 6                     | 0                |
-| **LD-PolypVideo**    | 40,186       | 33,875       | 2,360                 | 6,311            |
-| **KUMC (PolypSet)**  | 37,899       | 35,996       | 1                     | 1,903            |
-| **Real-COLON (Raw)** | 138,091      | 15,660       | 3                     | 122,431          |
-| **Real-COLON (Balanced)** | 76,876  | 15,660       | 3                     | 61,216           |
-| **TOTAL (Raw)**      | 219,837      | 89,066       | –                     | 130,771          |
-| **TOTAL (Balanced)** | 158,622      | 89,066       | –                     | 69,556           |
+| Dataset                  | Total Images | Polyp Images | Multiple Polyp Images | Non-Polyp Images |
+|--------------------------|-------------:|-------------:|----------------------:|-----------------:|
+| **CVC-ClinicDB**         | 612          | 612          | 30                    | 0                |
+| **CVC-ColonDB**          | 380          | 380          | –                     | 0                |
+| **Kvasir-SEG**           | 1,000        | 1,000        | 48                    | 0                |
+| **PolypGen**             | 1,473        | 1,347        | 123                   | 126              |
+| **ETIS-LaribDB**         | 196          | 196          | 6                     | 0                |
+| **LD-PolypVideo**        | 40,186       | 33,875       | 2,360                 | 6,311            |
+| **KUMC (PolypSet)**      | 37,899       | 35,996       | 1                     | 1,903            |
+| **Real-COLON (Balanced)**| 92892        | 46061        | 3                     | 46831            |
+| **TOTAL**                | 158,622      | 89,066       | –                     | 69,556           |
 
 ---
 
@@ -103,7 +101,23 @@ These ensure **reproducibility** by documenting:
 ### 🔹 Balancing Strategy  
 Some datasets, particularly **Real-COLON**, contained a large imbalance of **non-polyp vs. polyp images**.  
 - To address this, **non-polyp samples were reduced by half** in each subset.  
-- This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.  
+- This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
+- 
+|--------------------------|-------------:|-------------:|-----------------:|
+| Dataset                  | Total Images | Polyp Images | Non-Polyp Images |
+|--------------------------|-------------:|-------------:|-----------------:|
+| **Real-COLON (001-003)** | 39262        | 35996        | 3266             |
+| **Real-COLON (002-001)** | 25998        | 0            | 25998            |
+| **Real-COLON (003-001)** | 51722        | 8643         | 43079            |
+| **Real-COLON (004-008)** | 22742        | 1422         | 21320            |
+|--------------------------|-------------:|-------------:|-----------------:|
+| Dataset                  | Updated Total Images | Polyp Images | Filtered Non-Polyp Images |
+|--------------------------|---------------------:|-------------:|--------------------------:|
+| **Real-COLON (001-003)** | 37629                | 35996        | 1633                      |
+| **Real-COLON (002-001)** | 12999                | 0            | 12999                     |
+| **Real-COLON (003-001)** | 30182                | 8643         | 21539                     |
+| **Real-COLON (004-008)** | 12082                | 1422         | 10660                     |
+| **TOTAL**                | 92892                | 46061        | 46831                     |
 
 ------
 
