@@ -70,6 +70,29 @@ The `DATA/` folder contains the **collated master dataset**.
 
 ---
 
+### Balancing Strategy  
+Some datasets, particularly **Real-COLON**, contained a large imbalance of **non-polyp vs. polyp images**.  
+- To address this, **non-polyp samples were reduced by half** in each subset.  
+- This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
+
+| Dataset                  | Total Images | Polyp Images | Non-Polyp Images |
+|--------------------------|-------------:|-------------:|-----------------:|
+| **Real-COLON (001-003)** | 39262        | 35996        | 3266             |
+| **Real-COLON (002-001)** | 25998        | 0            | 25998            |
+| **Real-COLON (003-001)** | 51722        | 8643         | 43079            |
+| **Real-COLON (004-008)** | 22742        | 1422         | 21320            |
+
+
+| Dataset                  | Updated Total Images | Polyp Images | Filtered Non-Polyp Images |
+|--------------------------|---------------------:|-------------:|--------------------------:|
+| **Real-COLON (001-003)** | 37629                | 35996        | 1633                      |
+| **Real-COLON (002-001)** | 12999                | 0            | 12999                     |
+| **Real-COLON (003-001)** | 30182                | 8643         | 21539                     |
+| **Real-COLON (004-008)** | 12082                | 1422         | 10660                     |
+| **TOTAL**                | 92892                | 46061        | 46831                     |
+
+---
+
 ### SPLITDATA  
 The `SPLITDATA/` folder contains **train/validation/test splits** derived from the `DATA/` folder. The dataset has been split in the ratio of 70:20:10
 - Splits are applied **across the combined dataset**, not per individual dataset.  
@@ -97,30 +120,6 @@ These ensure **reproducibility** by documenting:
 - Image–annotation matches.  
 - Polyp vs. non-polyp distribution.  
 - Multiple-polyp file references.  
-
----
-
-### Balancing Strategy  
-Some datasets, particularly **Real-COLON**, contained a large imbalance of **non-polyp vs. polyp images**.  
-- To address this, **non-polyp samples were reduced by half** in each subset.  
-- This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
-
-| Dataset                  | Total Images | Polyp Images | Non-Polyp Images |
-|--------------------------|-------------:|-------------:|-----------------:|
-| **Real-COLON (001-003)** | 39262        | 35996        | 3266             |
-| **Real-COLON (002-001)** | 25998        | 0            | 25998            |
-| **Real-COLON (003-001)** | 51722        | 8643         | 43079            |
-| **Real-COLON (004-008)** | 22742        | 1422         | 21320            |
-
-
-| Dataset                  | Updated Total Images | Polyp Images | Filtered Non-Polyp Images |
-|--------------------------|---------------------:|-------------:|--------------------------:|
-| **Real-COLON (001-003)** | 37629                | 35996        | 1633                      |
-| **Real-COLON (002-001)** | 12999                | 0            | 12999                     |
-| **Real-COLON (003-001)** | 30182                | 8643         | 21539                     |
-| **Real-COLON (004-008)** | 12082                | 1422         | 10660                     |
-| **TOTAL**                | 92892                | 46061        | 46831                     |
-
 
 ---
 
