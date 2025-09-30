@@ -4,6 +4,8 @@ This work aggregates publicly available colonoscopy datasets for polyp detection
 
 Off the 8 publiclty available datasets, 3 datasets were recognized as benchmark datasets based on existing benchmarks set. And the other datasets were collomated together with an common naming convention and format, and were used for pretraining.
 
+The Polyp Dataset established has a total of about 173450 images (121,414 train + 17346 test + 34690 val). And the Benchmark datasets have about 1188 images. 
+
 ## 📌 Dataset Categorization  
 
 ### 🔹 Benchmark Datasets  
@@ -19,7 +21,7 @@ These are used to ensure results are comparable with established baselines.
 ### 🔹 Training Datasets  
 The remaining datasets were **collated into a composite training set** and used for **pretraining**.  
 This setup enables two modes of evaluation:  
-- **Intra-dataset testing** → training and evaluating on splits of the same dataset.  
+- **Intra-dataset testing** → training and evaluating on splits of the same dataset.
 - **Inter-dataset testing** → training on one dataset and evaluating on unseen datasets (e.g., ETIS-LaribDB, CVC-ClinicDB, CVC-ColonDB) to assess **generalization**.  
 
 ---
@@ -69,7 +71,7 @@ The `DATA/` folder contains the **collated master dataset**.
 ---
 
 ### 🔹 SPLITDATA  
-The `SPLITDATA/` folder contains **train/validation/test splits** derived from the `DATA/` folder.  
+The `SPLITDATA/` folder contains **train/validation/test splits** derived from the `DATA/` folder. The dataset has been split in the ratio of 70:20:10
 - Splits are applied **across the combined dataset**, not per individual dataset.  
 - A `log.txt` file records:  
   - Split sizes (train/val/test).  
