@@ -124,7 +124,7 @@ Some datasets, particularly **Real-COLON**, contained a large imbalance of **non
 
 ---
 
-##  Disclaimer  
+##  Caveat  
 This work was done solely for **documentation of personal research** and for **keeping track of dataset preparation steps**.  
 It is **not intended to be fully reproducible** or directly used as a standardized dataset.  
 
