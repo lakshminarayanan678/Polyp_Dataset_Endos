@@ -49,8 +49,8 @@ This setup enables two modes of evaluation:
 | **ETIS-LaribDB**         | 196          | 196          | 6                     | 0                |
 | **LD-PolypVideo**        | 40,186       | 33,875       | 2,360                 | 6,311            |
 | **KUMC (PolypSet)**      | 37,899       | 35,996       | 1                     | 1,903            |
-| **Real-COLON (Balanced)**| 92892        | 46061        | 3                     | 46831            |
-| **TOTAL**                | 158,622      | 89,066       | –                     | 69,556           |
+| **Real-COLON (Balanced)**| 92,892       | 46,061       | 3                     | 46,831           |
+| **TOTAL**                | 1,73,450     | 1,18,279     | 2,535                 | 55,171           |
 
 ---
 
@@ -103,9 +103,7 @@ Some datasets, particularly **Real-COLON**, contained a large imbalance of **non
 - To address this, **non-polyp samples were reduced by half** in each subset.  
 - This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
   
-|--------------------------|-------------:|-------------:|-----------------:|
 | Dataset                  | Total Images | Polyp Images | Non-Polyp Images |
-|--------------------------|-------------:|-------------:|-----------------:|
 | **Real-COLON (001-003)** | 39262        | 35996        | 3266             |
 | **Real-COLON (002-001)** | 25998        | 0            | 25998            |
 | **Real-COLON (003-001)** | 51722        | 8643         | 43079            |
