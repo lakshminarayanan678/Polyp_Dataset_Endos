@@ -8,7 +8,7 @@ The Polyp Dataset established has a total of about 173450 images (121,414 train 
 
 ## 📌 Dataset Categorization  
 
-### 🔹 Benchmark Datasets  
+### Benchmark Datasets  
 Three datasets were selected as **benchmarks** for evaluation, as they are widely adopted in prior research:  
 - **CVC-ClinicDB**  
 - **CVC-ColonDB**  
@@ -18,7 +18,7 @@ These are used to ensure results are comparable with established baselines.
 
 ---
 
-### 🔹 Training Datasets  
+### Training Datasets  
 The remaining datasets were **collated into a composite training set** and used for **pretraining**.  
 This setup enables two modes of evaluation:  
 - **Intra-dataset testing** → training and evaluating on splits of the same dataset.
@@ -26,7 +26,7 @@ This setup enables two modes of evaluation:
 
 ---
 
-## 📸 Sample Images  
+## Sample Images  
 
 | Dataset       | Samples |
 |---------------|---------|
@@ -40,7 +40,7 @@ This setup enables two modes of evaluation:
 
 ---
 
-## 📊 Dataset Summary  
+## Dataset Summary  
 
 | Dataset                  | Total Images | Polyp Images | Multiple Polyp Images | Non-Polyp Images |
 |--------------------------|-------------:|-------------:|----------------------:|-----------------:|
@@ -56,9 +56,9 @@ This setup enables two modes of evaluation:
 
 ---
 
-## 📁 Dataset Organization  
+## Dataset Organization  
 
-### 🔹 DATA  
+### DATA  
 The `DATA/` folder contains the **collated master dataset**.  
 - All images and annotations from multiple sources (Kvasir-SEG, CVC, PolypGen, LD-PolypVideo, Real-COLON, KUMC, etc.) are unified here.  
 - Files are renamed with a **dataset prefix** (e.g., `Kvasir-SEG_xxx.jpg`, `realcolon_xxx.jpg`, `kumc_xxx.jpg`, `polypgen_xxx.jpg`) for **traceability**.  
@@ -70,7 +70,7 @@ The `DATA/` folder contains the **collated master dataset**.
 
 ---
 
-### 🔹 SPLITDATA  
+### SPLITDATA  
 The `SPLITDATA/` folder contains **train/validation/test splits** derived from the `DATA/` folder. The dataset has been split in the ratio of 70:20:10
 - Splits are applied **across the combined dataset**, not per individual dataset.  
 - A `log.txt` file records:  
@@ -80,7 +80,7 @@ The `SPLITDATA/` folder contains **train/validation/test splits** derived from t
 
 ---
 
-### 🔹 SEGDATASETS  
+### SEGDATASETS  
 The `SegDatasets/` folder contains datasets with **segmentation masks**.  
 - Datasets like **Kvasir-SEG, CVC-Clinic, CVC-Colon, ETIS-Larib** are organized in subfolders.  
 - Each subfolder includes **images, masks, and logs** (`log.txt`).  
@@ -91,7 +91,7 @@ The `SegDatasets/` folder contains datasets with **segmentation masks**.
 
 ---
 
-### 🔹 Logs & Integrity Checks  
+### Logs & Integrity Checks  
 Every dataset folder (`DATA/`, `SPLITDATA/`, `SegDatasets/`) includes a `log.txt` file.  
 These ensure **reproducibility** by documenting:  
 - Image–annotation matches.  
@@ -100,7 +100,7 @@ These ensure **reproducibility** by documenting:
 
 ---
 
-### 🔹 Balancing Strategy  
+### Balancing Strategy  
 Some datasets, particularly **Real-COLON**, contained a large imbalance of **non-polyp vs. polyp images**.  
 - To address this, **non-polyp samples were reduced by half** in each subset.  
 - This produced **balanced versions** of the dataset, improving training stability and reducing bias toward negative samples.
@@ -132,13 +132,13 @@ For any clarifications, discussions, or further details, feel free to reach out.
 
 ---
 
-## 📬 Contact  
+## Contact  
 - **Name**: M. Lakshminarayanan  
 - **Email**: lakshminarayanan.m678@gmail.com
 
 ---
 
-## 📖 References  
+## References  
 - **Kvasir-SEG Dataset** – https://datasets.simula.no/kvasir-seg/
 - **CVC-ClinicDB** – https://www.dropbox.com/scl/fi/ky766dwcxt9meq3aklkip/CVC-ClinicDB.rar?dl=0&e=1&file_subpath=%2FCVC-ClinicDB&rlkey=61xclnrraadf1niqdvldlds93
 - **CVC-ColonDB** - https://www.kaggle.com/datasets/longvil/cvc-colondb
